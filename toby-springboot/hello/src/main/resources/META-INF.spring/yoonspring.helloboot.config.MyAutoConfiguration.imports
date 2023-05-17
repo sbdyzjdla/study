@@ -1,2 +1,3 @@
 yoonspring.helloboot.config.autoconfig.DispatcherServletConfig
 yoonspring.helloboot.config.autoconfig.TomcatWebServerConfig
+yoonspring.helloboot.config.autoconfig.JettyWebServerConfig
