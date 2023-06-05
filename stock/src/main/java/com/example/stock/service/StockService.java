@@ -3,8 +3,8 @@ package com.example.stock.service;
 import com.example.stock.domain.Stock;
 import com.example.stock.repositoty.StockRepository;
 import org.springframework.stereotype.Service;
-
-import javax.transaction.Transactional;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class StockService {
@@ -15,7 +15,7 @@ public class StockService {
         this.repository = repository;
     }
 
-//    @Transactional
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
     public synchronized void decrease(Long id, Long quantity) {
         Stock stock = repository.findById(id).orElseThrow();
 
