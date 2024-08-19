@@ -1,6 +1,4 @@
-�22:36:06.080 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest - 클래스 이름1=class hello.advanced.trace.template.TemplateMethodTest$1
-o22:36:06.082 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest - 비즈니스 로직1 실행
-c22:36:06.082 [Test worker] INFO hello.advanced.trace.template.code.AbstractTemplate - resultTime=0
-�22:36:06.082 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest - 클래스 이름2=class hello.advanced.trace.template.TemplateMethodTest$2
-o22:36:06.082 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest - 비즈니스 로직2 실행
-c22:36:06.082 [Test worker] INFO hello.advanced.trace.template.code.AbstractTemplate - resultTime=0
+j22:13:19.108 [Test worker] INFO hello.advanced.trace.strategy.ContextV2Test - 비즈니스 로직1 실행
+e22:13:19.110 [Test worker] INFO hello.advanced.trace.strategy.code.strategy.ContextV2 - resultTime=3
+j22:13:19.111 [Test worker] INFO hello.advanced.trace.strategy.ContextV2Test - 비즈니스 로직2 실행
+e22:13:19.111 [Test worker] INFO hello.advanced.trace.strategy.code.strategy.ContextV2 - resultTime=0
